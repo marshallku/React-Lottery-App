@@ -102,7 +102,7 @@ class LotteryItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            number: 0,
+            number: "?",
             decryptingDone: "",
         };
     }
