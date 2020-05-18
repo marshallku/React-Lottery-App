@@ -127,7 +127,6 @@ class LotteryItem extends React.Component {
 
     componentDidUpdate(nextProps) {
         const { decrypting } = this.props;
-        console.log(decrypting, nextProps.decrypting);
         if (nextProps.decrypting !== decrypting) {
             if (decrypting) {
                 this.decryptEffect();
