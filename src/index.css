@@ -113,7 +113,7 @@ h1 {
     font-weight: bold;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 335px) {
     #numbers {
         width: 330px;
         flex-direction: row;
