@@ -1,3 +1,3 @@
 # React Lottery App
 
-<img src="https://marshall-ku.com/wp-content/uploads/2020/05/react-lottery-app.png">
+<img src="https://marshall-ku.github.io/React-Lottery-App/react%20lottery%20app.png">
