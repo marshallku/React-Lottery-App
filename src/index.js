@@ -89,7 +89,7 @@ class LotteryButton extends React.Component {
         return (
             <button
                 id="btn"
-                className={this.props.decrypting && "hide"}
+                className={this.props.decrypting ? "hide" : ""}
                 onClick={this.props.run}
             >
                 추첨!
