@@ -155,7 +155,6 @@ h1 {
     position: relative;
     display: block;
     padding: 1rem 2.5rem 1.6rem;
-    background: #fff;
     color: #666;
     border: 2px solid #666;
     border-radius: 6px;
@@ -197,4 +196,34 @@ h1 {
 
 #btn.hide {
     transform: scale(0);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: #121212;
+    }
+
+    #title,
+    #btn,
+    .plus {
+        color: #bbb;
+    }
+
+    #btn {
+        border-color: #bbb;
+    }
+
+    #btn::after {
+        background-image: repeating-linear-gradient(
+            45deg,
+            #bbb,
+            #bbb 1px,
+            transparent 2px,
+            transparent 5px
+        );
+    }
+
+    #btn:active {
+        background: #444;
+    }
 }
