@@ -74,26 +74,15 @@ class LotteryBox extends React.Component {
                     />
                 </div>
                 <div>
-                    <LotteryButton
-                        decrypting={this.state.effect}
-                        run={this.randomize}
-                    />
+                    <button
+                        id="btn"
+                        className={this.state.effect ? "hide" : ""}
+                        onClick={this.randomize}
+                    >
+                        추첨!
+                    </button>
                 </div>
             </React.Fragment>
-        );
-    }
-}
-
-class LotteryButton extends React.Component {
-    render() {
-        return (
-            <button
-                id="btn"
-                className={this.props.decrypting ? "hide" : ""}
-                onClick={this.props.run}
-            >
-                추첨!
-            </button>
         );
     }
 }
