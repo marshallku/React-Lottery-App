@@ -111,6 +111,7 @@ h1 {
     padding: 0 20px;
     font-size: 48px;
     font-weight: bold;
+    margin: 0 0 10px 0;
 }
 
 @media screen and (min-width: 335px) {
@@ -146,6 +147,7 @@ h1 {
 
     #numbers .plus {
         width: auto;
+        margin: 0 10px 0 0;
     }
 }
 
