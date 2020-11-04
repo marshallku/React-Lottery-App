@@ -18,6 +18,8 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build"
   },
+  "author": "Marshall K",
+  "license": "UNLICENSED",
   "eslintConfig": {
     "extends": "react-app"
   },
