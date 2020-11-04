@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Lottery-App/static/css/main.e2df12b7.chunk.css",
-    "main.js": "/React-Lottery-App/static/js/main.5e29bd6c.chunk.js",
-    "main.js.map": "/React-Lottery-App/static/js/main.5e29bd6c.chunk.js.map",
-    "runtime-main.js": "/React-Lottery-App/static/js/runtime-main.b9b6fa2f.js",
-    "runtime-main.js.map": "/React-Lottery-App/static/js/runtime-main.b9b6fa2f.js.map",
-    "static/js/2.353683f6.chunk.js": "/React-Lottery-App/static/js/2.353683f6.chunk.js",
-    "static/js/2.353683f6.chunk.js.map": "/React-Lottery-App/static/js/2.353683f6.chunk.js.map",
+    "main.css": "/React-Lottery-App/static/css/main.c9e2df3f.chunk.css",
+    "main.js": "/React-Lottery-App/static/js/main.82c852c9.chunk.js",
+    "main.js.map": "/React-Lottery-App/static/js/main.82c852c9.chunk.js.map",
+    "runtime-main.js": "/React-Lottery-App/static/js/runtime-main.5ef3ccba.js",
+    "runtime-main.js.map": "/React-Lottery-App/static/js/runtime-main.5ef3ccba.js.map",
+    "static/js/2.8718156b.chunk.js": "/React-Lottery-App/static/js/2.8718156b.chunk.js",
+    "static/js/2.8718156b.chunk.js.map": "/React-Lottery-App/static/js/2.8718156b.chunk.js.map",
     "index.html": "/React-Lottery-App/index.html",
-    "precache-manifest.744b81f048f25289f5d57f9c9dced71b.js": "/React-Lottery-App/precache-manifest.744b81f048f25289f5d57f9c9dced71b.js",
-    "service-worker.js": "/React-Lottery-App/service-worker.js",
-    "static/css/main.e2df12b7.chunk.css.map": "/React-Lottery-App/static/css/main.e2df12b7.chunk.css.map",
-    "static/js/2.353683f6.chunk.js.LICENSE.txt": "/React-Lottery-App/static/js/2.353683f6.chunk.js.LICENSE.txt"
+    "static/css/main.c9e2df3f.chunk.css.map": "/React-Lottery-App/static/css/main.c9e2df3f.chunk.css.map",
+    "static/js/2.8718156b.chunk.js.LICENSE.txt": "/React-Lottery-App/static/js/2.8718156b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9b6fa2f.js",
-    "static/js/2.353683f6.chunk.js",
-    "static/css/main.e2df12b7.chunk.css",
-    "static/js/main.5e29bd6c.chunk.js"
+    "static/js/runtime-main.5ef3ccba.js",
+    "static/js/2.8718156b.chunk.js",
+    "static/css/main.c9e2df3f.chunk.css",
+    "static/js/main.82c852c9.chunk.js"
   ]
 }
