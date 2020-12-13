@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/React-Lottery-App/static/css/main.c9e2df3f.chunk.css",
-    "main.js": "/React-Lottery-App/static/js/main.82c852c9.chunk.js",
-    "main.js.map": "/React-Lottery-App/static/js/main.82c852c9.chunk.js.map",
-    "runtime-main.js": "/React-Lottery-App/static/js/runtime-main.5ef3ccba.js",
-    "runtime-main.js.map": "/React-Lottery-App/static/js/runtime-main.5ef3ccba.js.map",
-    "static/js/2.8718156b.chunk.js": "/React-Lottery-App/static/js/2.8718156b.chunk.js",
-    "static/js/2.8718156b.chunk.js.map": "/React-Lottery-App/static/js/2.8718156b.chunk.js.map",
+    "main.js": "/React-Lottery-App/static/js/main.23518328.chunk.js",
+    "main.js.map": "/React-Lottery-App/static/js/main.23518328.chunk.js.map",
+    "runtime-main.js": "/React-Lottery-App/static/js/runtime-main.19298401.js",
+    "runtime-main.js.map": "/React-Lottery-App/static/js/runtime-main.19298401.js.map",
+    "static/js/2.fe30fc8b.chunk.js": "/React-Lottery-App/static/js/2.fe30fc8b.chunk.js",
+    "static/js/2.fe30fc8b.chunk.js.map": "/React-Lottery-App/static/js/2.fe30fc8b.chunk.js.map",
     "index.html": "/React-Lottery-App/index.html",
     "static/css/main.c9e2df3f.chunk.css.map": "/React-Lottery-App/static/css/main.c9e2df3f.chunk.css.map",
-    "static/js/2.8718156b.chunk.js.LICENSE.txt": "/React-Lottery-App/static/js/2.8718156b.chunk.js.LICENSE.txt"
+    "static/js/2.fe30fc8b.chunk.js.LICENSE.txt": "/React-Lottery-App/static/js/2.fe30fc8b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ef3ccba.js",
-    "static/js/2.8718156b.chunk.js",
+    "static/js/runtime-main.19298401.js",
+    "static/js/2.fe30fc8b.chunk.js",
     "static/css/main.c9e2df3f.chunk.css",
-    "static/js/main.82c852c9.chunk.js"
+    "static/js/main.23518328.chunk.js"
   ]
 }
