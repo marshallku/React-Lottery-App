@@ -1,11 +1,20 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
+import LotteryItem from "./LotteryItem";
 
 const numbers = [...Array(45).keys()];
 
-class LotteryBox extends React.Component {
-    state = { number: [0, 0, 0, 0, 0, 0, 0] };
+export default class LotteryBox extends React.Component<
+    LotteryBoxProps,
+    LotteryBoxState
+> {
+    constructor(props: LotteryBoxProps) {
+        super(props);
+        this.state = {
+            number: [0, 0, 0, 0, 0, 0, 0],
+            effect: false,
+        };
+    }
+
     randomize = () => {
         if (!this.state.effect) {
             const numberCopy = numbers.map((x) => x);
@@ -26,8 +35,7 @@ class LotteryBox extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <h1 id="title">Lotto</h1>
+            <>
                 <div id="numbers">
                     <LotteryItem
                         index="0"
@@ -82,56 +90,7 @@ class LotteryBox extends React.Component {
                         추첨!
                     </button>
                 </div>
-            </React.Fragment>
+            </>
         );
     }
 }
-
-class LotteryItem extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            number: "?",
-            decryptingDone: "",
-        };
-    }
-
-    decryptEffect() {
-        this.setState({ decryptingDone: "" });
-        this.timer = setInterval(() => {
-            this.randomNumber();
-        }, 10);
-        setTimeout(() => {
-            this.setState({
-                decryptingDone: "done",
-                number: this.props.number,
-            });
-            clearTimeout(this.timer);
-        }, 1000 * +this.props.index + 1000);
-    }
-
-    randomNumber() {
-        this.setState({ number: Math.round(Math.random() * 44) + 1 });
-    }
-
-    componentDidUpdate(nextProps) {
-        const { decrypting } = this.props;
-        if (nextProps.decrypting !== decrypting) {
-            if (decrypting) {
-                this.decryptEffect();
-            }
-        }
-    }
-
-    render() {
-        return (
-            <div
-                className={`ball ${this.props.color} ${this.state.decryptingDone}`}
-            >
-                {this.state.number}
-            </div>
-        );
-    }
-}
-
-ReactDOM.render(<LotteryBox />, document.getElementById("root"));
